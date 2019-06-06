@@ -1,0 +1,110 @@
+body,div,dl,dt,dd,ul,li,a,p,h1,h2,h3,h4,h5,h6,input,form,textarea{
+    margin:0px;
+    padding:0px;
+}
+ol,ul li{
+    list-style:none;
+}
+del {
+    text-decoration: none;
+}
+
+header{
+    width: 900px;
+    height: 60px;
+    border-bottom: 1px solid #046B80;
+    margin: 0 auto;
+    display: flex;
+}
+header > img{
+    width: 300px;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 3px 43px 0px rgba(123, 49, 255, 0.13);
+}
+header > form{
+    width: 600px;
+    height: 100%;
+    padding: 10px 0;
+    box-sizing: border-box;
+}
+header > form > input{
+    height: 40px;
+    margin: 0 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 3px 43px 0px rgba(123, 49, 255, 0.13);
+}
+header > form > input:nth-child(1){
+    width: 200px;
+    padding: 10px;
+    margin-left: 220px;
+    box-sizing: border-box;
+}
+header > form > input:nth-child(2){
+    padding: 0 10px;
+    box-sizing: border-box;
+    color: blue;
+    background: green;
+}
+
+main{
+    width: 900px;
+    height: auto;
+    margin: 20px auto;
+    box-shadow: 0px 3px 43px 0px rgba(139, 74, 255, 0.13);
+    border-radius: 30px;
+}
+main>.tab{
+    height: 60px;
+    display: flex;
+    position: relative;
+    border-radius: 30px;
+    background: #bef5d2;
+}
+.tab>li{
+    height: 100%;
+    flex-grow: 1;
+    line-height: 60px;
+    text-align: center;
+    transition: all ease-in 0.5s;
+}
+.tab> .hot{
+    color: blue;
+    background: green;
+    border-radius: 30px;
+}
+/*.top{*/
+/*    width: 300px;*/
+/*    height: 60px;*/
+/*    border-radius: 30px;*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    top: 0;*/
+/*    z-index:1;*/
+/*    background: #4c82ff;*/
+/*    transition: all ease .5s;*/
+/*}*/
+/*.tab> li  .hot:nth-child(1)~ .top{*/
+/*    transform: translate(0,0);*/
+/*}*/
+/*.tab> :nth-child(2)~ .top{*/
+/*    transform: translate(100%,0);*/
+/*}*/
+/*.tab> :nth-child(3)~ .top{*/
+/*    transform: translate(200%,0);*/
+/*}*/
+
+.content>li{
+    font-size: 20px;
+    line-height: 3;
+    box-shadow: 0px 3px 43px 0px rgba(132, 199, 255, 0.22);
+    border: 1px solid gray;
+    padding: 0 10px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+input{
+    margin-top: 26px;
+}

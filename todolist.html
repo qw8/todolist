@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ch">
+<head>
+    <meta charset="UTF-8">
+    <title>待办事项</title>
+    <link rel="stylesheet" href="todolist.css">
+</head>
+
+<body>
+<header>
+    <img src="todolist.png" alt="加载失败">
+    <form action="" name="myform">
+        <input type="text" placeholder="点击输入待办事项：" name="content" required>
+        <input type="submit" value="点击添加">
+    </form>
+</header>
+<main>
+    <ul class="tab">
+        <li class="hot" type="all">全部</li>
+        <li type="doing">未完成</li>
+        <li type="done">已完成</li>
+<!--        <div class="top"></div>-->
+    </ul>
+    <ul class="content">
+        <li id="1">
+            <input type="checkbox" checked>
+            <p>端午参加高考</p>
+            <time>2019/6/7</time>
+            <del>×</del>
+        </li>
+    </ul>
+</main>
+
+<script src="todolist.js"></script>
+</body>
+</html>
